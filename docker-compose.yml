@@ -1,0 +1,24 @@
+version: '3.3'
+
+services:
+  # db:
+  #   image: mysql/mysql-server:latest
+  #   restart: always
+  #   environment:
+  #     MYSQL_DATABASE: 'funsexbot'
+  #     MYSQL_ROOT_PASSWORD: 'zGa#fd_s&c'
+  #     MYSQL_ROOT_HOST: '%'
+  #   ports:
+  #     - '172.31.35.185:3306:3306'
+  #   expose:
+  #     - '3306'
+  #   volumes:
+  #     - db-storage:/var/lib/mysql
+
+  bot:
+    build: .
+    volumes: 
+      - D:\Programming\funsexbot\:/apps/funsexbot
+   
+volumes:
+  db-storage:

@@ -1,0 +1,15 @@
+{
+    "TOKEN": "5156302525:AAGi0g-nco_s7FrgfMVHxp2fJM0ygjTAaNI",
+    "desireTimeout": 15,
+    "sshConfig": {
+        "username": "ubuntu",
+        "host": "54.93.211.155",
+        "port": 22,
+        "dstHost": "172.31.35.185",
+        "dstPort": 3306,
+        "localHost": "127.0.0.1",
+        "localPort": 3306,
+        "keepaliveInterval": 60000,
+        "keepAlive": true
+    }
+}

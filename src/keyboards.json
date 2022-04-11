@@ -1,0 +1,112 @@
+{
+    "common": [
+        [
+            {
+                "text": "Отправить писичку"
+            },
+            {
+                "text": "Отправить сообщение"
+            }
+        ],
+        [
+            {
+                "text": "Хочу трахатся"
+            }
+        ],
+        [
+            {
+                "text": "Статистика"
+            }
+        ]
+    ],
+    "start": [
+        [
+            {
+                "text": "Хочу трахатся",
+                "callback_data": "start"
+            }
+        ]
+    ],
+    "skipPhotoDescription": [
+        [
+            {
+                "text": "Пропустить",
+                "callback_data": "photoDescription/skip"
+            }
+        ]
+    ],
+    "statistics": {
+        "common": [
+            [
+                {
+                    "text": "Фото"
+                },
+                {
+                    "text": "Сообщений"
+                },
+                {
+                    "text": "Трахания"
+                }
+            ],
+            [
+                {
+                    "text": "⬅️ Назад"
+                }
+            ]
+        ],
+        "sex": {
+            "interval": [
+                [
+                    {
+                        "text": "За день",
+                        "callback_data": "statistics/sex/day"
+                    },
+                    {
+                        "text": "За неделю",
+                        "callback_data": "statistics/sex/week"
+                    },
+                    {
+                        "text": "За месяц",
+                        "callback_data": "statistics/sex/month"
+                    }
+                ]
+            ]
+        },
+        "photo": {
+            "interval": [
+                [
+                    {
+                        "text": "За день",
+                        "callback_data": "statistics/photo/day"
+                    },
+                    {
+                        "text": "За неделю",
+                        "callback_data": "statistics/photo/week"
+                    },
+                    {
+                        "text": "За месяц",
+                        "callback_data": "statistics/photo/month"
+                    }
+                ]
+            ]
+        },
+        "messages": {
+            "interval": [
+                [
+                    {
+                        "text": "За день",
+                        "callback_data": "statistics/messages/day"
+                    },
+                    {
+                        "text": "За неделю",
+                        "callback_data": "statistics/messages/week"
+                    },
+                    {
+                        "text": "За месяц",
+                        "callback_data": "statistics/messages/month"
+                    }
+                ]
+            ]
+        }
+    }
+}
